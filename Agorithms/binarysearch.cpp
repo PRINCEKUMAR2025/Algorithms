@@ -19,12 +19,13 @@ int bin(int arr[],int size,int key){
     else{
         end=mid-1;
     }
-    int mid=(start+end)/2;
+    mid=(start+end)/2;
     }
     return -1;
 }
 int main(){
-    int arry[10]={0,1,2,3,4,5,6,7,8,9};
-    int a=bin(arry,10,7);
+    int arry[6]={2,4,6,8,12,18};
+    int a=bin(arry,6,12);
     cout<<a<<endl;
+    return 0;
 }

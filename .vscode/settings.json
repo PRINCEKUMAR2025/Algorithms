@@ -3,5 +3,6 @@
         "iostream": "cpp",
         "algorithm": "cpp",
         "bitset": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "enabled"
 }
